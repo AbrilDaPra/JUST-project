@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ysabeau Infant';
+}
+
+/* GENERAL */
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: pink;
+}
+body{
+    background-color: #f5d7e3;
+}
+
+/* HEADER */
+.navbar{
+    background-color: #aa7dce;
+    height: 10vh;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+.nav-item{
+    margin: 15px;
+}
+.navbar-brand{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+/* HERO */
+#hero{
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+#hero h1{
+    font-size: 50px;
+    color: #3b429f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */
+footer{
+    background-color: #aa7dce;
+    height: 10vh;
+}
+.icon-circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.icon-circle{
+    background-color: #3b429f;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.icon-circle i{
+    color: #aa7dce;
+    font-size: 25px;
+}
+.icon-circle:hover{
+    background-color: #f4a5ae;
+}
