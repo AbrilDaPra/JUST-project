@@ -82,3 +82,20 @@ footer{
 .icon-circle:hover{
     background-color: #f4a5ae;
 }
+
+/* ABOUT ME */
+.title{
+    font-size: 35px;
+    color: #a8577e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.about-me img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: 30px;
+}
